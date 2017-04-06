@@ -1,0 +1,13 @@
+libraryDependencies += "org.slf4j" % "slf4j-nop"     % "1.7.10"
+addSbtPlugin(       "com.eed3si9n" % "sbt-assembly"  % "0.14.4" )
+addSbtPlugin(          "me.lessis" % "bintray-sbt"   % "0.3.0"  )
+addSbtPlugin(       "com.eed3si9n" % "sbt-buildinfo" % "0.6.1"  )
+addSbtPlugin(  "se.marcuslonnberg" % "sbt-docker"    % "1.4.1"  )
+addSbtPlugin(       "com.dwijnand" % "sbt-dynver"    % "1.2.0"  )
+addSbtPlugin( "pl.project13.scala" % "sbt-jmh"       % "0.2.24" )
+addSbtPlugin(  "de.heikoseeberger" % "sbt-header"    % "1.8.0"  )
+addSbtPlugin(       "com.jsuereth" % "sbt-pgp"       % "1.0.0"  )
+addSbtPlugin(  "com.github.gseitz" % "sbt-release"   % "1.0.4"  )
+addSbtPlugin(      "org.scoverage" % "sbt-scoverage" % "1.5.0"  )
+addSbtPlugin(     "org.xerial.sbt" % "sbt-sonatype"  % "1.1"    )
+addSbtPlugin(       "com.eed3si9n" % "sbt-unidoc"    % "0.4.0"  )
